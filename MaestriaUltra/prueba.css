@@ -1,0 +1,202 @@
+/* 
+    Document   : prueba
+    Created on : 03-sep-2012, 20:27:11
+    Author     : JGPB
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@-moz-keyframes movimiento-diagonal {
+   from {
+      left: 0px;
+   }
+   
+   to {
+      left: 100px;
+   }
+}
+@-o-keyframes movimiento-diagonal {
+   from {
+      left: 0px;
+   }
+   
+   to {
+      left: 100px;
+   }
+}
+@-webkit-keyframes movimiento-diagonal {
+   from {
+      left: 0px;
+   }
+   
+   to {
+      left: 100px;
+   }
+}
+#anim {
+   -o-animation-name: movimiento-diagonal;
+   -o-animation-duration: 3s;
+   -o-animation-iteration-count: infinite;
+   -o-animation-direction: alternate;/*para que vuelva a su posicion inicial */
+   width: 100px;
+   color: cornflowerblue;
+   position: relative; 
+   padding: 2px;
+}
+#anim {
+   -webkit-animation-name: movimiento-diagonal;
+   -webkit-animation-duration: 3s;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-direction: alternate;/*para que vuelva a su posicion inicial */
+   width: 100px;
+   color: cornflowerblue;
+   position: relative; 
+   padding: 2px;
+}
+#anim {
+   -moz-animation-name: movimiento-diagonal;
+   -moz-animation-duration: 3s;
+   -moz-animation-iteration-count: infinite;
+   -moz-animation-direction: alternate;/*para que vuelva a su posicion inicial */
+   width: 100px;
+   color: cornflowerblue;
+   position:relative; 
+   padding: 2px;
+}
+/*3 dimensiones*/
+#anim
+{
+    font-family: Verdana, sans-serif;
+    line-height: 1em;
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: 33px;
+    text-shadow:0px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),2px 2px 0 rgb(0,0,0),3px 3px 0 rgb(0,0,0),4px 4px 0 rgb(0,0,0),5px 5px 0 rgb(0,0,0),6px 6px 0 rgb(0,0,0),7px 7px 0 rgb(0,0,0),8px 8px 0 rgb(0,0,0),9px 9px 0 rgb(0,0,0),10px 10px 0 rgb(0,0,0),11px 11px 0 rgb(0,0,0), 12px 12px 0 rgb(0,0,0),13px 13px 12px rgb(0,0,0),13px 13px 1px rgb(0,0,0),0px 0px 12px rgb(0,0,0);
+}
+#3d
+{
+    font-family: Verdana, sans-serif;
+    line-height: 1em;
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow:0px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),2px 2px 0 rgb(0,0,0),3px 3px 0 rgb(0,0,0),4px 4px 0 rgb(0,0,0),5px 5px 0 rgb(0,0,0),6px 6px 0 rgb(0,0,0),7px 7px 0 rgb(0,0,0),8px 8px 0 rgb(0,0,0),9px 9px 0 rgb(0,0,0),10px 10px 0 rgb(0,0,0),11px 11px 0 rgb(0,0,0), 12px 12px 0 rgb(0,0,0),13px 13px 12px rgb(0,0,0),13px 13px 1px rgb(0,0,0),0px 0px 12px rgb(0,0,0);
+}
+/*Propiedad para hacer el menu vertical i/o horizobtal*/
+/*#menuInferior li 
+{ 
+    float: left; 
+    padding: 0 0 10px 0; 
+    position: relative; 
+} */
+#menuInferior ul 
+{ 
+        list-style: none; 
+        margin: auto; 
+        padding: 5px; 
+        height: 500px;
+        position: absolute; 
+        left: 0px; 
+        z-index: 99999; 
+        background: #444; 
+        /*Efectos de submenu*/
+        background: -moz-linear-gradient(#111, #111); 
+        background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444)); 
+        background: -webkit-linear-gradient(#444, #111); 
+        background: -o-linear-gradient(#444, #111); 
+        background: -ms-linear-gradient(#444, #111); 
+        background: linear-gradient(#444, #111); 
+        -moz-border-radius: 5px; 
+        border-radius: 20px; 
+}
+/*Estilo de los h1*/
+h1{
+    font-family: Verdana, sans-serif;
+    line-height: 1em;
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow:0px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),2px 2px 0 rgb(0,0,0),3px 3px 0 rgb(0,0,0),4px 4px 0 rgb(0,0,0),5px 5px 0 rgb(0,0,0),6px 6px 0 rgb(0,0,0),7px 7px 0 rgb(0,0,0),8px 8px 0 rgb(0,0,0),9px 9px 0 rgb(0,0,0),10px 10px 0 rgb(0,0,0),11px 11px 0 rgb(0,0,0), 12px 12px 0 rgb(0,0,0),13px 13px 12px rgb(0,0,0),13px 13px 1px rgb(0,0,0),0px 0px 12px rgb(0,0,0); 
+}
+iframe
+{
+    width: 810px;
+    height: 800px;
+    padding: -20px;
+    margin: 0px;
+    float: top;
+}
+h2{ font-family: Verdana, sans-serif;
+    line-height: 1em;
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: 25px;
+}
+p{
+    font: bold 14px/25px Arial, Helvetica;
+}
+footer{
+    height: 25px; 
+    padding: 0 25px; 
+    color: cornflowerblue; 
+    font: bold 12px/25px Arial, Helvetica; 
+    text-decoration: none; 
+    text-shadow: 0 1.5px 0px #fff;  
+}
+audio{
+    color:#0186ba; 
+    /*autobuffer:*/      /*permite la carga automática del archivo, y los valores posibles son “true” o “false”*/
+    autoplay:autoplay; /*reproduce automáticamente el audio*/
+    controls:controls;  /*muestra los controles de reproducción*/
+    height :20px; /*define la altura del reproductor (en píxeles)*/
+    loop : loop; /*ejecuta la reproducción en bucle, cuando finaliza vuelve a empezar*/
+    /*src :*/ /*URL del archivo o fuente a reproducir*/
+    type : audio/mp3 audio/ogg audio/wav; /*tipo de archivo o fuente (audio/mp3, video/ogg, video/mp4, …)*/
+    width : 130px; /*define el ancho del reproductor (en píxeles)*/
+}
+/*TIPO DE LETRA DEL MENU VERTICAL*/
+#menuInferior a 
+{ 
+    float: left; 
+    height: 25px; 
+    padding: 0 25px; 
+    color: #999; 
+    text-transform: uppercase; 
+    font: bold 14px/25px Arial, Helvetica; 
+    text-decoration: none; 
+    text-shadow: 0 1px 0 #000; 
+} 
+#menuInferior ul a 
+{    
+    padding: 5px;
+    height: 40px; 
+    line-height: 1; 
+    display: block; 
+    white-space: nowrap; 
+    float: none;
+    text-transform: none; 
+} 
+/*Prueba*/
+.menuInferior li a.activo {
+	color: #ffffff;				/* Color de letra del ítem activo */
+	background: #93A283;			/* Color de fondo del ítem activo */
+}
+/*Pasar el mouse cambia de color a blanco las letras del menu vertical*/
+#menuInferior li:hover > a 
+{ 
+    color: #fafafa; 
+} 
+/*Propiedad para el primer elemento de la lista vertical*/
+#menuInferior li:first-child
+{
+    padding: 10px;
+    float: top; 
+    color: cornflowerblue; 
+    text-transform: uppercase; 
+    font: bold 16px/25px Arial, Helvetica; 
+    text-decoration: none; 
+    text-shadow: 0 1px 1px #000; 
+}
+
+
+
+
